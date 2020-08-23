@@ -75,3 +75,20 @@ function combineLiteral(input1, input2, resultConversion) {
 }
 var combinedStringAges = combineLiteral("30", "26", "as-number");
 console.log("combinedStringAges ", combinedStringAges);
+function combineTypeAliases(input1, input2, resultConversion) {
+    var result;
+    if ((typeof input1 === "number" && typeof input2 === "number") ||
+        resultConversion === "as-number") {
+        result = +input1 + +input2;
+    }
+    else {
+        result = input1.toString() + input2.toString();
+    }
+    return result;
+}
+function greet(user) {
+    console.log("Hi, I am " + user.name);
+}
+function isOlder(user, checkAge) {
+    return checkAge > user.age;
+}
