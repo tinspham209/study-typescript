@@ -92,3 +92,19 @@ function greet(user) {
 function isOlder(user, checkAge) {
     return checkAge > user.age;
 }
+// Function return Types & void
+function addVoid(n1, n2) {
+    return n1 + n2;
+}
+function printResultVoid(num) {
+    console.log("Result" + num);
+}
+printResultVoid(addVoid(5, 15));
+// Functions as Types
+// Function return Types & void
+function addFunction(n1, n2) {
+    return n1 + n2;
+}
+var combineValuesFunction;
+combineValuesFunction = addFunction;
+console.log(combineValuesFunction(8, 8));
