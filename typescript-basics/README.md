@@ -13,6 +13,7 @@ Array       [1,2,3]           Any JS array, type can be flexible or strict (rega
 Tuple       [1,2]             Added by TypeScript: Fixed-length array
 Enum        enum{ NEW, OLD}   Added by TypeScript: Automatically enumerated global constant identifiers
 Any         *                 Any kind of value, no specific type assignment
+Unknown     *                 Is better than any for the reasons described
 ```
 
 ### Types
@@ -23,3 +24,4 @@ Any         *                 Any kind of value, no specific type assignment
 - `Function Return Types & \"void"` : void is the standard which u will use in pretty much all scenarios where u have qa function that does not return a value
 - `Functions as Types`
 - `Function Types & Callbacks`
+- `\"never" Type` : is not return anything
