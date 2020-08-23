@@ -46,6 +46,7 @@ var enumType = {
     hobbies: ["Sport", "Cooking"],
     role: Role.ADMIN
 };
+// Union Types
 function combine(input1, input2) {
     var result;
     if (typeof input1 === "number" && typeof input2 === "number") {
@@ -60,3 +61,17 @@ var combinedAges = combine(30, 26);
 console.log(combinedAges);
 var combinedNames = combine("A", "B");
 console.log(combinedNames);
+// Literal Types
+function combineLiteral(input1, input2, resultConversion) {
+    var result;
+    if ((typeof input1 === "number" && typeof input2 === "number") ||
+        resultConversion === "as-number") {
+        result = +input1 + +input2;
+    }
+    else {
+        result = input1.toString() + input2.toString();
+    }
+    return result;
+}
+var combinedStringAges = combineLiteral("30", "26", "as-number");
+console.log("combinedStringAges ", combinedStringAges);
