@@ -155,3 +155,15 @@ function printResultVoid(num: number): void {
 }
 
 printResultVoid(addVoid(5, 15));
+
+// Functions as Types
+
+// Function return Types & void
+function addFunction(n1: number, n2: number) {
+	return n1 + n2;
+}
+
+let combineValuesFunction: (a: number, b: number) => number;
+
+combineValuesFunction = addFunction;
+console.log(combineValuesFunction(8, 8));
