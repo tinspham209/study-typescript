@@ -12,3 +12,18 @@ var number2 = 2.8;
 var printResult = true;
 var resultPhrase = "Result is: ";
 var result = add(number1, number2, printResult, resultPhrase);
+var person = {
+    name: "ABC",
+    age: 30
+};
+console.log(person.name);
+var product = {
+    id: "abc1",
+    price: 12.99,
+    tags: ["great-offer", "hot-and-new"],
+    details: {
+        title: "Red Carpet",
+        description: "A great carpet - almost brand-new!"
+    }
+};
+console.log(product);
