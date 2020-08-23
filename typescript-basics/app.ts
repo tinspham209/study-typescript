@@ -43,3 +43,17 @@ const product: {
 };
 
 console.log(product);
+
+const tuplesType: {
+	name: string;
+	age: number;
+	hobbies: string[];
+	role: [number, string];
+} = {
+	name: "ABC",
+	age: 30,
+	hobbies: ["Sport", "Cooking"],
+	role: [2, "author"],
+};
+
+console.log(person.name);
