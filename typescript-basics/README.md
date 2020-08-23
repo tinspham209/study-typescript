@@ -14,3 +14,8 @@ Tuple       [1,2]             Added by TypeScript: Fixed-length array
 Enum        enum{ NEW, OLD}   Added by TypeScript: Automatically enumerated global constant identifiers
 Any         *                 Any kind of value, no specific type assignment
 ```
+
+### Types
+
+- `Union types` are any number of types which are joined by a vertical bar |
+- `Literal types` A literal is a more concrete sub-type of a collective type. By using literal types you can allow an exact value which a string, number, or boolean must have.
