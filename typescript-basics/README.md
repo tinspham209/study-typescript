@@ -12,4 +12,5 @@ object      {age: 30}         Any JS object, more specific types are possible
 Array       [1,2,3]           Any JS array, type can be flexible or strict (regarding the element types)
 Tuple       [1,2]             Added by TypeScript: Fixed-length array
 Enum        enum{ NEW, OLD}   Added by TypeScript: Automatically enumerated global constant identifiers
+Any         *                 Any kind of value, no specific type assignment
 ```
