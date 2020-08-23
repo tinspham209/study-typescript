@@ -177,3 +177,10 @@ function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
 addAndHandle(10, 20, (result) => {
 	console.log(result);
 });
+
+// "Never" Type
+function generateError(message: string, code: number) {
+	throw { message: message, errorCode: code };
+}
+
+generateError("An error occurred", 500);
