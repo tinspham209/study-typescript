@@ -57,3 +57,21 @@ const tuplesType: {
 };
 
 console.log(person.name);
+
+enum Role {
+	ADMIN,
+	READ_ONLY,
+	AUTHOR,
+}
+
+const enumType: {
+	name: string;
+	age: number;
+	hobbies: string[];
+	role: Role;
+} = {
+	name: "ABC",
+	age: 30,
+	hobbies: ["Sport", "Cooking"],
+	role: Role.ADMIN,
+};

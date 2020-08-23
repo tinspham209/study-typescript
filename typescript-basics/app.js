@@ -27,3 +27,22 @@ var product = {
     }
 };
 console.log(product);
+var tuplesType = {
+    name: "ABC",
+    age: 30,
+    hobbies: ["Sport", "Cooking"],
+    role: [2, "author"]
+};
+console.log(person.name);
+var Role;
+(function (Role) {
+    Role[Role["ADMIN"] = 0] = "ADMIN";
+    Role[Role["READ_ONLY"] = 1] = "READ_ONLY";
+    Role[Role["AUTHOR"] = 2] = "AUTHOR";
+})(Role || (Role = {}));
+var enumType = {
+    name: "ABC",
+    age: 30,
+    hobbies: ["Sport", "Cooking"],
+    role: Role.ADMIN
+};
