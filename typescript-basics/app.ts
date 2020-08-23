@@ -144,3 +144,14 @@ function greet(user: User) {
 function isOlder(user: User, checkAge: number) {
 	return checkAge > user.age;
 }
+
+// Function return Types & void
+function addVoid(n1: number, n2: number) {
+	return n1 + n2;
+}
+
+function printResultVoid(num: number): void {
+	console.log("Result" + num);
+}
+
+printResultVoid(addVoid(5, 15));
