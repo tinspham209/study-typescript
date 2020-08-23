@@ -21,3 +21,5 @@ Any         *                 Any kind of value, no specific type assignment
 - `Literal types` A literal is a more concrete sub-type of a collective type. By using literal types you can allow an exact value which a string, number, or boolean must have.
 - `Type Aliases & Object Types / Custom Types` : can be used to "create" your own types. You're not limited to storing union types though - you can also provide an alias to a (possibly complex) object type.
 - `Function Return Types & \"void"` : void is the standard which u will use in pretty much all scenarios where u have qa function that does not return a value
+- `Functions as Types`
+- `Function Types & Callbacks`
