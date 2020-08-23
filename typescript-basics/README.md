@@ -19,3 +19,4 @@ Any         *                 Any kind of value, no specific type assignment
 
 - `Union types` are any number of types which are joined by a vertical bar |
 - `Literal types` A literal is a more concrete sub-type of a collective type. By using literal types you can allow an exact value which a string, number, or boolean must have.
+- `Type Aliases & Object Types / Custom Types` : can be used to "create" your own types. You're not limited to storing union types though - you can also provide an alias to a (possibly complex) object type.
